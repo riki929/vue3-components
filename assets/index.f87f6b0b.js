@@ -1,0 +1,1 @@
+import{e as a,r,c,u as s,o as t}from"./vendor.12f4db5c.js";const u=a({setup(l){let o=e=>{console.log(e)};return(e,p)=>{const n=r("zl-area-picker");return t(),c(n,{onChange:s(o)},null,8,["onChange"])}}});export{u as default};

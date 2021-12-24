@@ -1,0 +1,5 @@
+import{e as s,f as i,r as v,c as p,u as n,o as E}from"./vendor.12f4db5c.js";const _=s({setup(C){let u=i([{title:"\u8D2D\u7269",start:"2021-12-12 08:00",end:"2021-12-12 12:00",editable:!0},{title:"\u770B\u8282\u76EE",start:"2021-12-22 18:00",end:"2021-12-22 19:00"}]),r=e=>{u.value.push({start:e.dateStr+" 12:00",end:e.dateStr+" 18:00",title:"\u5B66\u4E60"}),console.log(e)},a=e=>{console.log(e)},o=e=>{let l=document.createElement("div"),t=e.timeText.split("-"),c=t[0].replace("\u4E0A\u5348","").replace("\u4E0B\u5348","").replace("\u65F6",""),d=t[1].replace("\u4E0A\u5348","").replace("\u4E0B\u5348","").replace("\u65F6","");return l.innerHTML=`
+    <div>\u5F00\u59CB\u65F6\u95F4: ${c}</div>
+    <div>\u7ED3\u675F\u65F6\u95F4: ${d}</div>
+    <div>\u6807\u9898: ${e.event._def.title}</div>
+  `,{domNodes:[l]}};return(e,l)=>{const t=v("zl-calendar");return E(),p(t,{events:n(u),eventContent:n(o),displayEventEnd:"",onDateClick:n(r),onEventClick:n(a)},null,8,["events","eventContent","onDateClick","onEventClick"])}}});export{_ as default};
